@@ -1,0 +1,77 @@
+.mak_H1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.remas_strap{
+    background-image: url("../images/carousel-makers-2.carousel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
+.remas_strap_div{
+    height: 30rem;
+    background: linear-gradient(90deg,rgba(25,26,26,.1),rgba(26,26,26,.15),rgba(26,26,26,.5),rgba(26,26,26,.8),rgba(26,26,26,.9));
+    color: #FFFFFF;
+}
+.remas_div{
+    padding-bottom: 12px;
+}
+.remas_h3{
+    padding-top: 50px;
+    padding-right: 40px;
+}
+.audiences-gear-image {
+    position: absolute;
+    top: 0;
+    display: block;
+    z-index: 305;
+    cursor: pointer;
+    margin-left: 61rem;
+    margin-top: 22rem;
+}
+.audiences-gear-image2 {
+    position: absolute;
+    top: 0;
+    display: block;
+    z-index: 305;
+    cursor: pointer;
+    margin-left: 25rem;
+    margin-top: 22rem;
+}
+.gou_h2{
+    line-height: 100px;
+    font-size: 28px;
+}
+.gou_h3{
+    line-height: 100px;
+}
+.col-sm-6{
+    padding-left: 0;
+    padding-right: 25px;
+}
+.gou_div{
+    float: left;
+    text-align: left;
+}
+.gou_div>p:nth-child(1){
+    font-size: 20px;
+    color: black;
+}
+.wrapper{
+    text-align: center;
+    margin-top: 3.2rem;
+}
+.wrapper_div{
+    padding-bottom: 50px;
+}
+.img_avator{
+    width: 200px;
+    border: 1px solid #cccccc;
+}
+.btn_join{
+    padding: 10px 70px 10px 70px;
+    background-color: #313434;
+}
+.btn_join:hover{
+    background-color: #1C1D1E;
+}

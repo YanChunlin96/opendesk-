@@ -1,0 +1,347 @@
+/*font*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont.woff') format('woff'),
+    url('../fonts/iconfont.ttf') format('truetype'),
+    url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+iframe{
+    display: block;
+}
+#iframepage{
+    position: relative;
+    z-index: 55;
+    border-bottom: 1px solid #F3F1ED;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    margin: 0;
+}
+.col-lg-12,.col-lg-1,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7{
+    padding: 0;
+}
+.laShop{
+    font-size: 25px;
+}
+header{
+    height: 85px;
+    line-height: 85px;
+}
+.logoImg{
+    padding: 2.2rem 2.6rem 1rem 3.7rem;
+}
+.logoImg2{
+    padding: 1.8rem 0 1.5rem 0;
+}
+.mynav>ul{
+    list-style: none;
+}
+.mynav>ul>li{
+    float: left;
+    margin-left: 40px;
+    color: #6E6D68;
+    cursor: pointer;
+}
+.mynav>ul>li>a{
+    text-decoration: none;
+    color: #6E6D68;
+}
+.nav_li{
+    font-size: 25px;
+}
+.mynav>ul>li>a:hover{
+    color: #038854;
+}
+.xsNav{
+    font-size: 25px;
+    margin-left: 20px;
+    line-height: 80px;
+    color: #6E6D68;
+    cursor: pointer;
+}
+.xsShop{
+    font-size: 25px;
+    margin-right: 20px;
+    line-height: 80px;
+    color: #6E6D68;
+}
+.navRight>div{
+    float: left;
+    color: #6E6D68;
+    border-left: 1px solid #F2F1EF;
+    text-align: center;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navRight>div:hover{
+    color: #038854;
+}
+.navRight>div:nth-child(1){
+    font-size: 25px;
+}
+.panel {
+    display: none;
+    height: 100%;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: #ffffff;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.btn1{
+    margin-top: 50px;
+    font-size: 18px;
+    background-color: #038854;
+}
+.openDiv{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.open1{
+    margin-bottom: 40px;
+}
+p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.aboutDiv{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F9F8F8;
+}
+.min_col{
+    width: 26.8%;
+}
+.abopH3{
+    line-height: 70px;
+}
+.uniqueDiv{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.kaBg{
+    width: 560px;
+    height: 430px;
+    overflow: hidden;
+    background-color: #F4F2F0;
+    cursor: pointer;
+}
+.strapDiv{
+    position: absolute;
+    top: 0;
+    width: 560px;
+    height: 430px;
+    background-color: rgba(0, 0, 0, 0.19);
+    transition: all .3s linear;
+}
+.strapDiv:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+.strapDiv2{
+    margin-bottom: 50px;
+}
+.lrDiv{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.kaDiv{
+    width: 560px;
+    height: 430px;
+    margin-top: 30px;
+    background-image: url("../images/Nav_Image.strap.png");
+    background-repeat: no-repeat;
+    background-position: -240px 0;
+}
+.greeDiv{
+    position: absolute;
+    top: 20px;
+}
+.greeDiv>img{
+    margin-left: -300px;
+}
+.kaDiv2{
+    width: 560px;
+    height: 430px;
+    margin-top: 30px;
+    background-image: url("../images/KANO2.strap.png");
+    background-repeat: no-repeat;
+    background-position: -240px 0;
+}
+.greeDiv2{
+    position: absolute;
+    top: 20px;
+}
+.greeDiv2>img{
+    margin-left: -100px;
+}
+.nikeDiv{
+    padding-bottom: 60px;
+    background-color: #F9F8F8;
+}
+.nikeDiv2{
+    padding-top: 50px;
+}
+.blog-strap{
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #F8F8F9;
+}
+.blog-strap-bg{
+    opacity: 0;
+    transition: opacity .2s;
+    background-color: #9c9;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.blog-strap>img{
+    width: 100%;
+}
+.blogDiv{
+    padding-left: 0;
+    margin-bottom: 60px;
+}
+.blogDiv:hover .blog-strap-bg{
+    cursor: pointer;
+    opacity: 0.7;
+}
+@media (min-width: 1200px) {
+    .blog-post{
+        height: 29rem;
+    }
+}
+.blog-post{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.blog-text{
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.makDiv{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.strap-img>img{
+    margin: auto;
+    max-width: 100%;
+}
+.footerDiv{
+    background-color: #696763;
+    color: #F2F1EF;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.footer_logo>img{
+    margin-bottom: 30px;
+}
+.footerUl{
+    font-size: 16px;
+    list-style: none;
+    overflow: hidden;
+}
+.footerUl>li{
+    float: left;
+    margin-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.footerUl>li>a{
+    text-decoration: none;
+    color: #F2F1EF;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #8F8C88;
+}
+.footerUl>li>a:hover{
+    border-color: #F2F1EF;
+}
+.footerUl>li:not(:last-child){
+    border-right: 1px solid #FFFFFF
+}
+.footerxsUl{
+    font-size: 16px;
+    list-style: none;
+    overflow: hidden;
+}
+.footerxsUl>li{
+    float: left;
+    cursor: pointer;
+    color: #333333;
+    background-color: #BEBBB5;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.footerxsUl>li:hover{
+    background-color: #FFFFFF;
+}
+.footerUl2{
+    font-size: 16px;
+    list-style: none;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footerUl2>li{
+    float: left;
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.footerUl2>li:hover{
+    transform: translateY(-10px);
+}
+.footerTu{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #FFFFFF;
+}
+.footer_btn{
+    padding-top: 60px;
+}
+.re_btn{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #76756F;
+}
+.addOpen>a{
+    text-decoration: none;
+    color: #F2F1EF;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #8F8C88;
+}
+.addOpen>a:hover{
+    border-color: #F2F1EF;
+}

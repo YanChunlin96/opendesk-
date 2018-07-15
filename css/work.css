@@ -1,0 +1,71 @@
+.work_btn{
+    margin-top: 50px;
+    font-size: 18px;
+}
+.workDiv>p{
+    line-height: 20px;
+}
+.work_open1{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.case_study{
+    background-repeat: no-repeat;
+    margin-bottom: 3.2rem;
+    background-position: 50%;
+    height: 36rem;
+    position: relative;
+}
+.case_study_opaque{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(25,15,10,.2);
+    cursor: pointer;
+    height: 36rem;
+    transition: all .3s linear;
+}
+.case_study_opaque:hover{
+    background-color: rgba(25,15,10,.1);
+}
+.case_study_logo{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: auto 22rem;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.case_1{
+    background-image: url("../images/opendesk_workplace_tmrw_case-study-listing-image_1164x360.strap.jpg");
+}
+.case_2{
+    background-image: url("../images/LDF-Strap.strap.jpg");
+}
+.case_3{
+    background-image: url("../images/opendesk_workplace_the-collective_case-study-listing-image_1164x360.strap.jpg");
+}
+.case_4{
+    background-image: url("../images/opendesk_workplace_block-and-tackle_case-study-listing-image_1164x360.strap.jpg");
+}
+.case_5{
+    background-image: url("../images/w_STRAP-1164x360_20160116_Opendesk_Workspace_The-Working-Party_Sydney_R-Gardiner_RG780c_0144_v2w.strap.jpg");
+}
+.case_study_1{
+    background-image: url("../images/opendesk_workplace_tmrw_case-study-listing-image-logo_1164x360.strap.png");
+}
+.case_study_2{
+    background-image: url("../images/opendesk_workplace_london-design-festival_case-study-listing-image-logo_1164x360.strap.png");
+}
+.case_study_3{
+    background-image: url("../images/opendesk_workplace_the-collective_case-study-listing-image-logo_1164x360.strap.png");
+}
+.case_study_4{
+    background-image: url("../images/opendesk_workplace_block-and-tackle_case-study-listing-image-logo_1164x360.strap.png");
+}
+.case_study_5{
+    background-image: url("../images/working_party_logo_strap.strap.png");
+}

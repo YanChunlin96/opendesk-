@@ -1,0 +1,78 @@
+.carousel_img1{
+    background-image: url("../images/carousel1.jpg");
+    height: 36rem;
+    background-size: cover;
+}
+.carousel_img2{
+    background-image: url("../images/carousel2.jpg");
+    height: 36rem;
+    background-size: cover;
+}
+.carousel_img3{
+    background-image: url("../images/carousel3.jpg");
+    height: 36rem;
+    background-size: cover;
+}
+.carousel_img4{
+    background-image: url("../images/carousel4.jpg");
+    height: 36rem;
+    background-size: cover;
+}
+.carousel_img5{
+    background-image: url("../images/carousel5.jpg");
+    height: 36rem;
+    background-size: cover;
+}
+.carousel_Div{
+    position: absolute;
+    top: 12rem;
+}
+.carousel_ol>li{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    background-color: rgba(179, 179, 179, 0.7);
+    border: none;
+}
+.carousel_ol .active {
+    width: 22px;
+    height: 22px;
+    margin: 10px;
+    background-color: #fff;
+}
+.control_span{
+    font-size: 50px;
+}
+.group_div{
+    text-align: center;
+    margin: 3.2rem 0;
+    padding-left: 0;
+}
+.group_ul{
+    list-style: none;
+    font-size: 16px;
+}
+.group_ul>li{
+    float: left;
+    padding: 1.6rem;
+    margin-left: 2.5rem;
+    cursor: pointer;
+}
+.load_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.load_btn{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.avator_div{
+    border: 1px solid #F2F1EF;
+}
+.avator_list{
+    background-color: #FFFFFF;
+}
+.carousel_blog{
+    margin-top: 50px;
+}

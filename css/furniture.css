@@ -1,0 +1,61 @@
+.myFurnul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.myFurnul>li{
+    margin-right: 15px;
+}
+.furnH1{
+    padding-top: 40px;
+}
+.furnDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.furnUl{
+    list-style: none;
+}
+.furnUl>li{
+    float: left;
+    margin: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.furnUl>li:hover{
+    color: #3c763d;
+}
+.furn-list{
+    padding-left: 0;
+    padding-bottom: 50px;
+}
+.furn-Div{
+    border: 1px solid #F9F8F8;
+    transition: all .3s linear;
+}
+.furn-Div:hover{
+    border-color: #C0F3E2;
+}
+.furn-post{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #ffffff;
+}
+.furn-text{
+    padding: 10px 0 10px 0;
+}
+.furn-text>p{
+    line-height: 15px;
+}
+.visibleUL{
+    list-style: none;
+    text-align: center;
+}
+.visibleUL>li{
+    line-height: 60px;
+    font-size: 16px;
+}
+/*测试*/
+.lie{
+    border: 1px solid red;
+}
